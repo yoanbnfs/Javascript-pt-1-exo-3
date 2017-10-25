@@ -1,2 +1,4 @@
 var yourName = prompt('quel est votre prénom');
-alert(yourName);  
+if (yourName) {
+  alert(yourName);   
+}
